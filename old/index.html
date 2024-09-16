@@ -9,71 +9,113 @@
   <title>Title of the document</title>
 
   <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(40, 1, 148);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+img{
+  height: 25px;
+  width: 35px;
+  text-align: center;
+}
+.navbar{
+display: block;
+color: white;
+float: left;
+text-align: center;
+
+}
+li a:hover {
+  background-color: #111;
+}
     body {
       background: url(401906190_ITS_COMPLICATED_400px.gif)
     }
   </style>
 </head>
 
-<body bgcolor="darkblue" text="#ffffff">
-<h1>Üdvözöljük barkácsboltunkban</h1>
+<body style="background-color:darkblue; color: #ffffff;">
+  <ul>
+    <li><a><img src="hammer.png"></a></li>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  
+<h1 style="text-align: center;">Üdvözöljük barkácsboltunkban</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quis officia, omnis voluptatum temporibus minima sequi ea delectus ab minus laborum fugiat amet distinctio obcaecati perferendis, nesciunt a architecto magnam.</p>
   <h1>Festékek</h1>
 
-  <table border="1">
+  <table style="border: 1px solid black;">
     <tr>
-      <td><font size="5"><b>Név</b></font></td>
+      <td style="font-size: 5px;"><b>Név</b></td>
       <td><b>Gyártó</b></td>
-      <td><font><b>Felhasználás</b></font></td>
-      <td><font size="5"><b>Mennyiség</b></font></td>
-      <td><font size="5"><b>Egységár</b></font></td>
+      <td style="font-size: 5px;"><b>Felhasználás</b></td>
+      <td style="font-size: 5px;"><b>Mennyiség</b></td>
+      <td style="font-size: 5px;"><b>Egységár</b></td>
     </tr>
 
 
     <tr>
-      <td><font color=="87cefa">Albert beltéri falfesték Égkék (2 liter)</font></td>
+      <td style="color:#87cefa;">Albert beltéri falfesték Égkék (2 liter</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color="4682b4">Albert beltéri falfesték Acélkék (2 liter)</font></td>
+      <td style="color: #4682b4">Albert beltéri falfesték Acélkék (2 liter</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color="00fa9a">Albert beltéri falfesték Tavasz zöld (2 liter</font>)</td>
+      <td style="color: #00fa9a">Albert beltéri falfesték Tavasz zöld (2 liter)</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color="ff6347">Albert beltéri falfesték Paradicsom (2 liter)</font></td>
+      <td style="color: #ff6347">Albert beltéri falfesték Paradicsom (2 liter)</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color="ff8c69">Albert beltéri falfesték Lazac (2 liter)</font></td>
+      <td style="color: #ff8c69">Albert beltéri falfesték Lazac (2 liter)</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color="A52A2A">Albert beltéri falfesték Barna (2 liter)</font></td>
+      <td style="color: #A52A2A">Albert beltéri falfesték Barna (2 liter)</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
       <td>2 500 Ft/liter</td>
     </tr>
     <tr>
-      <td><font color=FFD700"">Albert beltéri falfesték Arany (2 liter)</font></td>
+      <td style="color: #FFD700">Albert beltéri falfesték Arany (2 liter)</td>
       <td>Hat Szivárvány nyrt.</td>
       <td>Beltéri</td>
       <td>2 liter</td>
@@ -93,7 +135,7 @@
     <li>Készlet: csak rendelésre</li>
   </ul>
 
-  <table border=1>
+  <table style="border:1px solid black ;">
     <tr>
       <td><b>Hétfő</b></td>
       <td><b>Kedd</b></td>
@@ -109,7 +151,12 @@
       <td><font color=red>Zárva</font>></td>
     </tr>
   </table>
+  <div class="navbar">
+    <a>Elérhetőségink</a>
+    <a>Levél: DIY barkácsbolt</a>
+    <a>Email:</a>
 
+  </div>
 </body>
 
 </html>
